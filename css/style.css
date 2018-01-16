@@ -1,0 +1,114 @@
+/************************************
+General
+*************************************/
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.background {
+  background-image: url("../img/main.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 890px;
+  width: 100%;
+}
+
+/************************************
+Main content
+*************************************/
+.main-content {
+  background-color: #fff;
+  display: inline-block;
+  float: left;
+  height: auto;
+  margin: 15% 30% 15% 10%;
+  padding: 50px;
+  width: 30%;
+}
+
+
+/************************************
+Header
+*************************************/
+#header {
+  text-align: left;
+  width: 90%;
+}
+
+#header h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 52px;
+  margin: 0px;
+}
+
+#header p {
+  font-size: 18px;
+}
+
+/************************************
+Estimate Form
+*************************************/
+.estimate-form {
+  margin: 0;
+  padding: 5% 0 5% 5%;
+  text-align: right;
+  width: 80%;
+}
+
+.estimate-form p,
+.estimate-form td {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+table {
+  empty-cells: show;
+  margin: 25px;
+}
+
+td {
+  padding: 10px;
+} /* basic styles for the actual estimate output on the estimate page. */
+
+input {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+  padding: 10px;
+} /* basic styles for the form text fields */
+
+/************************************
+Name
+*************************************/
+
+
+/************************************
+Email
+*************************************/
+
+
+/************************************
+Logo
+*************************************/
+
+
+/************************************
+Submit - Action
+*************************************/
+.action,
+input[type="submit"] {
+  background-color: #d7b008;
+  border: 0px;
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+} /* base styles for the 'get estimate' and the 'back' buttons.*/
+
+.action:active,
+input[type="submit"]:active {
+  border: 0px;
+  padding: 8px;
+} /* adds hover and click styles to the buttons */
